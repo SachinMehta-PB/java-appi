@@ -16,11 +16,11 @@
     </dependency>
   </dependencies>
   <build>
-<!--     <plugins>
+    <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.3.1</version>
                 <configuration>
                     <webResources>
                         <resource>
@@ -29,7 +29,7 @@
                     </webResources>
                 </configuration>
             </plugin>
-        </plugins> -->
+        </plugins>
     <finalName>WebApp</finalName>
   </build>
 </project>
