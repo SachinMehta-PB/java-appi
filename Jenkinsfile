@@ -34,7 +34,7 @@ pipeline{
 //                            error "Pipeline aborted due to quality gate failure: ${qg.status}"
 //                       }
 //                     }
-	            sh "mvn test"
+//	            sh "mvn test"
 		    sh "mvn clean install"
                   }
                 }  
